@@ -20,6 +20,66 @@ body{
 
 
 
+@media(max-widht: 1160px ){
+    .container{
+        width: 1040px !important;
+    }
+     
+}
+
+@media(max-widht:1060px){
+    .container{
+        width: 940px !important;
+    }
+
+}
+
+@media(max-widht:960px){
+    .container{
+        width: 840px !important;
+    }
+
+}
+
+@media(max-widht:860px){
+    .container{
+        width: 740px !important;
+    }
+}
+
+@media(max-widht:760px){
+    .container{
+        width: 640px  !important;
+    }
+}
+
+@media(max-widht:660px){
+    .container{
+        width: 540px !important;
+    }
+}
+
+@media(max-widht:560px){
+    .container{
+        width: 440px !important;
+    }
+
+}
+
+@media(max-widht:460px){
+    .container{
+        width:340px !important;
+    }
+}
+
+@media(max-widht:360px){
+    .container{
+        width:100% !important;
+    }
+}
+
+
+
 
 
 
