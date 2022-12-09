@@ -20,61 +20,61 @@ body{
 
 /* ///////////////////////// */
 
-@media(max-widht: 1160px ){
+@media(max-width: 1160px ){
     .container{
         width: 1040px !important;
     }
      
 }
 
-@media(max-widht:1060px){
+@media(max-width:1060px){
     .container{
-        width: 940px !important;
+        width: 940px;
     }
 
 }
 
-@media(max-widht:960px){
+@media(max-width:960px){
     .container{
-        width: 840px !important;
+        width: 840px;
     }
 
 }
 
-@media(max-widht:860px){
+@media(max-width:860px){
     .container{
-        width: 740px !important;
+        width: 740px;
     }
 }
 
-@media(max-widht:760px){
+@media(max-width:760px){
     .container{
-        width: 640px  !important;
+        width: 640px ;
     }
 }
 
-@media(max-widht:660px){
+@media(max-width:660px){
     .container{
-        width: 540px !important;
+        width: 540px;
     }
 }
 
-@media(max-widht:560px){
+@media(max-width:560px){
     .container{
-        width: 440px !important;
+        width: 440px;
     }
 
 }
 
-@media(max-widht:460px){
+@media(max-width:460px){
     .container{
-        width:340px !important;
+        width:340px;
     }
 }
 
-@media(max-widht:360px){
+@media(max-width:360px){
     .container{
-        width:100% !important;
+        width:100%;
     }
 }
 
@@ -95,7 +95,6 @@ header {
     justify-content: space-evenly;
 }
 .navbar h1 {
-    font-style: normal;
     font-weight: 400;
     font-size: 26px;
     line-height: 26px;
@@ -106,12 +105,10 @@ header {
     align-items: center;
 }
 .navlink {
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 20px;
     letter-spacing: 0.6px;
-    text-transform: uppercase;
     color: #FFFFFF;
     margin: 0 20px;
     transition: 0.6s;
@@ -124,24 +121,20 @@ header {
 
 .main .container{
     text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .main h2 {
-    font-style: normal;
     font-weight: 400;
     font-size: 50px;
     line-height: 51px;
-    text-align: center;
     letter-spacing: 2px;
     color: #FFFFFF;
-    margin-top: 120px;
-    margin-bottom: 20px;
 }
 .main p {
-    font-style: normal;
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
-    text-align: center;
     color: rgba(255, 255, 255, 0.63);
 }
 .btn {
@@ -150,9 +143,7 @@ header {
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
-    text-align: center;
     color: #FFFFFF;
     padding: 10px 20px;
     margin-top: 30px;
-    margin-bottom: 100px;
 }
